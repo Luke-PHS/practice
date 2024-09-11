@@ -1,1 +1,10 @@
+print("Welcome to the Space Travel Calculator!")
 
+distance = int(
+    input("Put the distance to the celestial object in light years: "))
+speed = int(
+     input("Put the spacecraft speed in the fraction of the speed of light: "))
+
+time = distance / speed
+
+print("It would take you " + str(time) + " years to reach the destination.")
